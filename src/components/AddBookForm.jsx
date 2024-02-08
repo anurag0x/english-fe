@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Navbar from './Navbar';
-import './AddBookForm.css'; // Import your CSS file for styling
+import './AddBookForm.css'; 
 
 const AddBookForm = () => {
   const [formData, setFormData] = useState({
